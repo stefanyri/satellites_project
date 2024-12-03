@@ -64,8 +64,7 @@ if __name__ == "__main__":
         for user in session.get_user():
             print(f"  User ID: {user.get_id()}, City: {user.get_city()}, Location: {user.get_location()}")
 
-import numpy as np
-import matplotlib.pyplot as plt
+
 
 # Parameters
 num_satellites = 50  # Number of satellites

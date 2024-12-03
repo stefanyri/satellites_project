@@ -51,7 +51,6 @@ ax.set_title('Dynamic Satellite and User Assignments Over Time')
 ax.legend(loc='upper left')
 ax.grid(True)
 
-
 def update(frame):
     global line_segments
     for line in line_segments:

@@ -3,7 +3,6 @@ import ephem
 import numpy as np
 import datetime
 
-
 def fetch_multiple_tle_from_url(tle_url, num_satellites=10):
     """
     Fetch TLE lines for the first N satellites in a TLE file.

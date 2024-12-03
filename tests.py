@@ -4,7 +4,6 @@ from users_information import user
 from session_information import session
 from satellites import fetch_multiple_tle_from_url, generate_satellite_positions, calculate_latency, calculate_synchronization
 
-
 def generate_sessions(num_sessions, max_users_per_session):
     """
     Generate a list of session objects with randomized users.

@@ -1,6 +1,7 @@
 import scipy.io as scio
 import heapq
 
+
 class user:
     def __init__(self, id, city, latitude, longitude, create_time, session):
         self.id = id

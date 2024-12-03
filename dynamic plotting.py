@@ -5,7 +5,6 @@ import requests
 import ephem
 from satellites import calculate_synchronization,calculate_latency
 
-
 def fetch_tle_data(tle_url, num_satellites=10):
     response = requests.get(tle_url)
     if response.status_code != 200:
@@ -44,7 +43,6 @@ def generate_satellite_positions(tle_data, num_steps, time_step=60):
             positions[sat_index, step, 1] = np.degrees(sat.sublong)
 
     return positions
-
 
 # Parameters
 num_satellites = 10
